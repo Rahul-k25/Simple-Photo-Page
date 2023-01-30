@@ -1,11 +1,10 @@
-.sp{
+.container{
     width: 1280px;
     margin: auto;
-    background-color: white;
+    font-family: Roboto, sans-serif;
 }
-.sp_nav{
+.container_nav{
     padding-top: 32px;
-    font-family: sans-serif;
 }
 
 .home {
@@ -72,8 +71,8 @@ img{
 }
 
 .sp__content-header{
-    margin: 56px 317px 34px 342px;
-    font-family: sans-serif;
+    padding: 56px 317px 34px 342px;
+    margin: 0;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -83,8 +82,8 @@ img{
     text-align: center;
 }
 .sp__paragraph{
-    margin: 34px 108px 41px 113px;
-    font-family: sans-serif;
+    padding: 0 108px 41px 113px;
+    margin: 0;
     font-size: 15.5px;
     font-weight: bold;
     line-height: 1.63;
@@ -95,23 +94,21 @@ img{
 
 .button{
     width: 192px;
-    height: 51px;
     background-color: #16a085;
     padding: 23px 45px 18px 43px;
     border: none;
-    font-family: GothamRounded;
     font-size: 10px;
     border-radius: 3px;
     margin: 0 561px 84px 527px;
     color: white;
     text-align: center;
 }
-.footer > p{
+.copyright{
     width: 408px;
     font-size: 16px;
-    margin: 47px 45px 50px 768px;
+    padding: 47px 105px 50px 768px;
+    margin: 0;
     color: #373737;
-    font-family: sans-serif;
     font-weight: 900;
     text-align: center;
 }
