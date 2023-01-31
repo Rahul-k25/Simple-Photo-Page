@@ -52,7 +52,7 @@
     text-decoration: none;
 }
 
-.photo {
+.sp__content {
     width: 100%;
     height: 1462px;
     margin-top: 35px;
@@ -71,7 +71,7 @@ img{
 }
 
 .sp__content-header{
-    padding: 56px 317px 34px 342px;
+    padding: 56px 0 34px;
     margin: 0;
     font-weight: bold;
     font-stretch: normal;
