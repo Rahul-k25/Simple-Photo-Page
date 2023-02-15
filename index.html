@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Photo Assigment</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body style="margin: auto">
-    <span class="home">HOME</span>
-    <span class="photoapp">PHOTOAPP</span>
-    <span class="design">DESIGN</span>
-    <span class="download">DOWNLOAD</span>
+  <body>
+    <header class="header container">
+      <nav class="nav">
+        <a href="#" class="nav__item">HOME</a>
+        <a href="#" class="nav__item">PHOTOAPP</a>
+        <a href="#" class="nav__item">DESIGN</a>
+        <a href="#" class="nav__item">DOWNLOAD</a>
+      </nav>
+    </header>
 
-    <div class="photo">
-      <img src="photography.jpg" alt="" />
-
-        <h2 class="Rappresent-your-life-with-a-simple-photo">
+    <main class="main-content container">
+      <img src="img/photography.jpg" alt="Taking Piture from SmartPhone" />
+      <div class="text-content">
+        <h2 class="main-content__header">
           Rappresent your life with a simple photo
         </h2>
-        <p class="Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-Etiam">
+        <p class="main-content__paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam velit
           est, ullamcorper a vestibulum eu, pulvinar ut orci. Donec gravida orci
           non suscipit consequat. Suspendisse ut dui sed tortor ultrices tempus.
@@ -27,7 +32,8 @@
           felis dolor, volutpat nec congue eget, ornare vitae quam. In finibus
           urna vel molestie tempus. Duis et convallis odio, convallis porta
           eros. Curabitur vel leo turpis. Morbi consequat ante in odio varius
-          hendrerit. <br /><br />
+          hendrerit.
+          <br /><br />
           Vestibulum varius pretium mattis. Aliquam vulputate maximus est, quis
           euismod elit sodales placerat. Proin pretium arcu a odio consectetur,
           nec vestibulum nisi venenatis. Nulla eleifend nisi vel pretium
@@ -42,14 +48,13 @@
           ut viverra. Proin dapibus magna vel urna ornare, et pretium metus
           facilisis.
         </p>
-        <div class="button">
-          <p>GET STARTED</p>
-        </div>
-        <!-- <button>GET STARTED</button> -->
-    </div>
-    <div class="footer">
-      <p>Copyright by photography123 - all right reserved</p>
-    </div>
-
+        <button class="main-content__button">GET STARTED</button>
+      </div>
+    </main>
+    <footer class="footer container">
+      <p class="footer__copyright">
+        Copyright by phototime - all right reserved
+      </p>
+    </footer>
   </body>
 </html>
